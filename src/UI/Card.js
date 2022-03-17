@@ -3,7 +3,7 @@ import classes from './Card.module.css';
 const Card = (props)=>{
 
     return (
-        <div className={classes.card} onClick={props.showDetails.bind(null, props.id)}>
+        <div title="Click to see details" className={classes.card} onClick={props.showDetails.bind(null, props.id)}>
             <h3 className={classes.source}>{props.item.source.name}</h3>
             <h1 className={classes.card__title}>{props.item.title}</h1>
             <div className={classes.card__content}>

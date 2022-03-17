@@ -8,11 +8,17 @@
     box-shadow: 0.2rem 0.3rem black;
     cursor: pointer;
     padding: 2rem 4rem;
+    transition: all .2s ease;
 }
 
 
 .card:hover {
     box-shadow: 0.3rem 0.4rem black;
+}
+
+.card:active {
+    background-color: crimson;
+    color: aliceblue;
 }
 
 .card__title{

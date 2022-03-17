@@ -72,3 +72,34 @@
     flex: 1;
     border-radius: 5px;
 }
+
+@keyframes moveDown {
+    0%{
+        top: -10px;
+    }
+    20%{
+        top: 0;
+    }
+    40% {
+        transform: translate(-50%, -50%);
+        top: 10%;
+        left: 50%;
+    }
+    60% {
+        transform: translate(-50%, -50%);
+        top: 25%;
+        left: 50%;
+    }
+    80% {
+        transform: translate(-50%, -50%);
+        top: 40%;
+        left: 50%;
+    }
+
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
