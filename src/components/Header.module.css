@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    border-bottom: 0.2px solid crimson;
+    height: 6vh;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.header__logo {
+    flex: 1 15%;
+}
+
+.header__searchbox {
+    flex: 1 85%;
+
+}
+
+.header__end {}
